@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Test</title>
+    <style>
+         body{
+             height: 97vh;
+             background-image: url("Logo/wallpaper004.jpg");
+             background-position: center center;
+         }
+        
+         p{
+             font-size: 8pt;
+             text-align: end;
+             margin-top: -35px;
+             color: white;
+             margin-right: 100px;
+             
+         }
+
+         span{
+             padding-top: 20px;
+         }   
+
+         body{
+             font-family: Arial, Helvetica, sans-serif;
+             background-color: lightgray;
+             
+         }
+
+        div{
+            color: white;
+            text-align: end;
+            font-size: 23pt;
+            padding-right: 25px;
+            
+    
+
+        }
+
+        nav{
+            background-image: linear-gradient(to bottom, #696969, #4e4e4e );
+            width: auto;
+            height: 100px;
+            margin-left: -20px;
+            margin-right: -32px;
+            margin-top: -90px;
+            box-shadow: black 1px 1px 1px;
+            text-align: end;
+            color: white;
+        }
+        header{
+            background-image: linear-gradient(to bottom, #161716, #333333, #404140 );
+            width: auto;    
+            margin-left: -20px;  
+            margin-right: -8px;
+            height: 23px;
+            box-shadow: black  1px 1px 1px;
+        }
+
+        img{
+            height: 60px;
+            position: absolute;
+            margin-top: -71px;
+            box-shadow: rgba(0, 0, 0, 0.658) 3px 1px 8px;
+           
+        }
+
+        form{
+            padding: 40px;
+            margin-left: -40px;
+            
+        }
+        button{
+          position: absolute;
+          top: 190px;
+          right: 12px;
+          cursor: pointer;
+        }
+        button:hover{
+
+            box-shadow: 0.8px 0.8px 4px 0px rgb(92, 92, 92);
+        }
+
+        hr{
+            margin-right: -35px;
+        }
+
+        hr#baixo{
+            margin-right: -115px;
+        }
+        
+        input:hover{
+            
+            box-shadow: 0.8px 0.8px 4px 0px rgb(92, 92, 92);
+            }
+    </style>
+</head>
+<body>
+        <div>
+            <span>Remover ou falhar AOI</span>
+           
+            <nav>.</nav>
+        </div>
+        <header>
+           .
+        </header>
+        
+        <p>Developed by System Engineering</p>
+
+        
+
+        <picture>
+            <img src="Logo/logo3.png" alt="logo">
+        </picture>
+
+<main>
+    <form method="POST" action="delete_log.php">
+        <input type="hidden" name="log" id="log" value="remove" />
+        <b> &rarr;
+        <input type="submit" style="cursor: pointer; font-size: 15px;" value="Remover SNs invalidos da pagina de recorte" />
+    </form><hr>
+    
+    <p><form method="POST" action="delete_log.php">
+        <b> &rarr; <input type="" name="uwip_log" id="uwip_log" placeholder="escaneie para remover" />
+        <input type="submit" style="cursor: pointer;" value="Remover Maquina" /><p></p>
+    </form>
+                                                                                                
+    <form method="POST" action="delete_log.php">
+        <b> &rarr; <input name="sn" id="sn" placeholder="escaneie o serial"/>
+        <input type="submit" style="cursor: pointer; " value="Falhar Maquina"/>
+    </form><hr id="baixo">
+</main>
+<a href="http://10.33.52.201/aoi/crop_imagens/index.php" target="_blank"><button >Voltar para área de recortes</button></a>
+
+
+  
+    
+   
+</body>
+</html>
